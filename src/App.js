@@ -4,15 +4,14 @@ import Home from "./components/home/Home"
 import Users from "./components/users/Users"
 import React from 'react';
 import Error from "./components/error/Error"
+import Navbar from "./components/navbar/Navbar"
 
 
 function App() {
   return (
 
   <div>
-    <h1>
-      hello world
-    </h1>
+    <Navbar />
     <Routes>
       <Route  path="/" element={<Home/>} />
       <Route  path='/users' element={<Users />} />
