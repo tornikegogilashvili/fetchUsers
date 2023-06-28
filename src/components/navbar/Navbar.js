@@ -1,6 +1,8 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./navbar.css"
+import routes from "../../conf/constants/routes";
+
 
 const Navbar = () => {
     return (
@@ -8,10 +10,10 @@ const Navbar = () => {
             <h3 className="navbar_logo">React App</h3>
             <ul className="navbar_linksContainer">
                 <li>
-                    <NavLink to="/" >HOME</NavLink>
+                    <NavLink to={routes.HOME_ROUTE} >HOME</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/users" >USERS</NavLink>
+                    <NavLink to={routes.USERS_ROUTE} >USERS</NavLink>
                 </li>
             </ul>
         </nav>

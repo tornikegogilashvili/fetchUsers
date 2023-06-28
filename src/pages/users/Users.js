@@ -1,16 +1,14 @@
 import React from "react"
 import { Link } from "react-router-dom"
-
+import UsersWrapper from "../../components/userswrapper/UsersWrapper"
 
 
 
 const Users = () => {
     return (
         <div>
-            <h1>users component</h1>
-            <button>
-                <Link to="/" >Home Page</Link>
-            </button>
+            <UsersWrapper />
+            
         </div>
     )
 }
