@@ -6,6 +6,7 @@ import React from 'react';
 import Error from "./pages/error/Error"
 import Navbar from "./components/navbar/Navbar"
 import routes from "./conf/constants/routes"
+import UserDetails from './pages/usersDetails/UserDetails';
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
     <Routes>
       <Route  path={routes.HOME_ROUTE} element={<Home/>} />
       <Route  path={routes.USERS_ROUTE} element={<Users />} />
+      <Route  path={routes.USERS_DETAILS} element={<UserDetails/>} />
       <Route  path='*' element={<Error />} />
+
     </Routes>
   </div>
   )
