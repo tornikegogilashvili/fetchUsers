@@ -13,7 +13,7 @@ const navigate = useNavigate();
             <h1>{info.name}</h1>
             <h2>{info.email}</h2>
             <h2>{info.phone}</h2>
-            <button onClick={() =>{
+            <button className="user_wrapper_button" onClick={() =>{
                 navigate(`${routes.USERS_ROUTE}/${info.id}`)
             }} >details page</button>
         </div>

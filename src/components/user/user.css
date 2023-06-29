@@ -1,7 +1,19 @@
 .user_wrapper{
-    border:2px solid ;
+    border:2px solid #8d7a7a ;
     width: 400px;
     padding:10px;
     margin: 5px;
     background-color: #8d4b4b;
+}
+.user_wrapper h1, h2{
+    color: #ffffff;
+    text-align: center;
+}
+.user_wrapper_button{
+    font-size: 16px;
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
 }

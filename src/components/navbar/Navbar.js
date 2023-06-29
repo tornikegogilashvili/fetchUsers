@@ -7,7 +7,9 @@ import routes from "../../conf/constants/routes";
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <h3 className="navbar_logo">React App</h3>
+            <h3 className="navbar_logo">
+                <NavLink to={routes.HOME_ROUTE} >React App</NavLink>
+            </h3>
             <ul className="navbar_linksContainer">
                 <li>
                     <NavLink to={routes.HOME_ROUTE} >HOME</NavLink>
